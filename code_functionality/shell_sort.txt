@@ -1,0 +1,6 @@
+1. The outer loop is responsible for the gaps. The gap starts at 1 and is then multiplied by 3 and added to 1 until it reaches size / 3.
+2. The inner loop is responsible for the sorting. It starts at the gap and goes until the end of the array.
+3. The inner loop starts with a comparison. If the element at position i is greater than the element at position i - gap, then the elements are swapped.
+4. The inner loop then decreases the gap by multiplying it by 3 and subtracting 1.
+5. The inner loop then continues with the next element.
+6. The outer loop then repeats with the new gap.
