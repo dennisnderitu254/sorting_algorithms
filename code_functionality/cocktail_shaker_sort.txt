@@ -1,0 +1,13 @@
+1. First, it checks if the shaker is not NULL. If it is, it returns.
+2. It swaps the node pointed by shaker with the node pointed by shaker->next.
+3. It checks if the node pointed by shaker is not the tail. If it is, it returns.
+4. It checks if the node pointed by shaker->prev is not NULL. If it is, it means that the node pointed by shaker is the head. So, it sets the head to the node pointed by shaker->next.
+5. It checks if the node pointed by shaker->next is not NULL. If it is, it means that the node pointed by shaker is the tail. So, it sets the tail to the node pointed by shaker->prev.
+6. It sets the next node of the node pointed by shaker to the node pointed by shaker->prev.
+7. It sets the previous node of the node pointed by shaker->next to the node pointed by shaker.
+8. It sets the previous node of the node pointed by shaker to the node pointed by shaker->next.
+9. It sets the next node of the node pointed by shaker to the node pointed by shaker->prev.
+10. First, we swap the node behind the shaker with the node in front of the shaker.
+11. Then, we swap the node in front of the shaker with the node behind the shaker.
+12. Finally, we swap the node behind the shaker with the node in front of the shaker again.
+13.It sorts a list using the cocktail sort algorithm.
