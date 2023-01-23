@@ -1,0 +1,14 @@
+1. The function starts by checking if the list is NULL or if it has only one element. If so, it returns.
+2. The function then initializes the iterator to the first element of the list.
+3. The function then loops through the list, starting with the second element.
+4. The function then initializes the insert variable to the previous element of the iterator.
+5. The function then loops through the list, starting with the previous element of the iterator.
+6. The function then checks if the iterator is greater than the insert variable.
+7. If so, the function swaps the nodes and prints the list.
+8. The function then sets the insert variable to the previous element of the iterator.
+9. The function then loops through the list, starting with the previous element of the iterator.
+10. The function then checks if the iterator is greater than the insert variable.
+11. If so, the function swaps the nodes and prints the list.
+12. The function then sets the iterator to the next element of the list.
+13. The function then loops through the list, starting with the second element.
+14. The function then returns.
