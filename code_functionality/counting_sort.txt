@@ -1,0 +1,10 @@
+1. The function get_max() takes two arguments: an array of integers and the size of the array.
+2. The function initializes a variable max to the first element of the array.
+3. The for loop iterates over the array, comparing each element to max.
+4. If the current element is greater than max, max is set to the current element.
+5. The function returns the value of max.
+6. First, it creates an array of integers called count.
+7. Then, it fills count with the number of occurrences of each integer in array.
+8. Then, it creates an array of integers called sorted.
+9. Then, it fills sorted with the sorted values of array.
+10. Finally, it fills array with the sorted values of sorted.
