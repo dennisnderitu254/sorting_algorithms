@@ -1,0 +1,10 @@
+1. The function lomuto_partition() takes the array, the size of the array, the left index, and the right index.
+2. It then sets a pivot to the rightmost element of the array.
+3. It then iterates through the array, swapping elements that are less than the pivot to the left of the pivot,
+    and elements that are greater than the pivot to the right of the pivot.
+4. It then returns the index of the pivot.
+5. The function lomuto_sort() takes the array, the size of the array, and the left and right indices.
+6. It then calls lomuto_partition() to get the index of the pivot.
+7. It then recursively calls lomuto_sort() to sort the left and right subarrays.
+8. The function quick_sort() takes the array and the size of the array.
+9. It then calls lomuto_sort() to sort the array.
