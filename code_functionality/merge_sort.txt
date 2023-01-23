@@ -1,0 +1,19 @@
+1. The merge_subarr() function takes in the subarray, a temporary buffer,
+and the start and end indices of the subarray.
+2. The merge_subarr() function prints out the subarray before and after
+merging.
+3. The merge_subarr() function loops through the subarray and compares
+the elements.
+4. The merge_subarr() function places the smaller element in the temporary
+buffer.
+5. The merge_subarr() function places the smaller element in the subarray.
+6. The merge_subarr() function prints out the subarray after merging.
+7. The merge_sort_recursive function takes a pointer to the array, a pointer to a buffer array, and the start and end indices of the subarray.
+8. If the subarray is greater than 1, then it calls itself twice, once for the left half and once for the right half.
+9. The merge_subarr function takes the subarray, the buffer array, and the start and end indices of the subarray.
+10. It then calls merge_sort_iterative to sort the left and right halves of the subarray.
+11. It then calls merge to merge the two sorted halves.
+12. The merge function takes the subarray, the buffer array, and the start and end indices of the subarray.
+13. It then iterates through the subarray, copying the smaller element from either the left or right half to the buffer array.
+14. It then copies the buffer array back to the subarray.
+15.It sorts the array in ascending order.
