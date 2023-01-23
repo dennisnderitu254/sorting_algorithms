@@ -1,0 +1,10 @@
+1. The outer loop is responsible for selecting the smallest element in the array
+    and swapping it with the element in the first position.
+
+2. The inner loop is responsible for finding the smallest element in the remaining subarray
+    and swapping it with the element in the second position.
+
+3. The inner loop continues to find the smallest element in the remaining subarray
+    and swapping it with the element in the third position, and so on.
+
+4. The outer loop then repeats the process for the remaining elements in the array.
