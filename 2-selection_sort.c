@@ -1,11 +1,12 @@
 #include "sort.h"
 
 /**
-* selection_sort - selection sort algorithm
-* @array: the array to sort
-* @size: the size of the array
-* Return: nothing
-*/
+ * selection_sort - selection sort algorithm
+ * @array: the array to sort
+ * @size: the size of the array
+ * Return: nothing
+ */
+
 
 void selection_sort(int *array, size_t size)
 {
@@ -13,14 +14,14 @@ void selection_sort(int *array, size_t size)
 	int swap;
 
 	if (array == NULL)
-	        return;
+		return;
 	for (i = 0; i < size - 1; i++)
 	{
-		position = int max, i;
-		for (i = 0; i < size; j++)
+		position = i;
+		for (j = i + 1; j < size; j++)
 		{
 			if (array[j] < array[position])
-			       position = j;
+				position = j;
 		}
 		if (position != i)
 		{
