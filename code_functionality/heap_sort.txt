@@ -1,0 +1,11 @@
+1. The function max_heapify() takes an array, its size, and the index of the root node.
+2. It then checks if the left and right child nodes are larger than the root node.
+3. If they are, it sets the largest node as the root node.
+4. If the largest node is not the root node, it swaps the root node with the largest node.
+5. It then recursively calls itself on the largest node.
+
+6. The first for loop is used to build a max heap.
+7. The second for loop is used to sort the array.
+8. The max_heapify function is used to maintain the max heap property.
+9. The swap_ints function is used to swap the elements of the array.
+10. The print_array function is used to print the array.
