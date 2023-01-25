@@ -13,6 +13,7 @@ void merge_sort(int *array, size_t size);
  * @mid: The middle index of the array.
  * @back: The back index of the array.
  */
+
 void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
 		size_t back)
 {
@@ -44,6 +45,9 @@ void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
  * @front: The front index of the subarray.
  * @back: The back index of the subarray.
  */
+
+
+
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
 {
 	size_t mid;
@@ -65,6 +69,8 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
  *
  * Description: Implements the top-down merge sort algorithm.
  */
+
+
 void merge_sort(int *array, size_t size)
 {
 	int *buff;
