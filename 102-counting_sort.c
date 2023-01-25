@@ -7,6 +7,7 @@
  *
  * Return: The maximum integer in the array.
  */
+
 int get_max(int *array, int size)
 {
 	int max, i;
@@ -28,6 +29,7 @@ int get_max(int *array, int size)
  *
  * Description: Prints the counting array after setting it up.
  */
+
 void counting_sort(int *array, size_t size)
 {
 	int *count, *sorted, max, i;
