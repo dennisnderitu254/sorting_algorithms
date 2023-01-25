@@ -5,6 +5,7 @@
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
+
 void swap_ints(int *a, int *b)
 {
 	int tmp;
@@ -22,6 +23,7 @@ void swap_ints(int *a, int *b)
  *
  * Description: Uses the Knuth interval sequence.
  */
+
 void shell_sort(int *array, size_t size)
 {
 	size_t gap, i, j;
