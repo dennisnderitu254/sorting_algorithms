@@ -10,6 +10,7 @@ void quick_sort(int *array, size_t size);
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
+
 void swap_ints(int *a, int *b)
 {
 	int tmp;
@@ -29,6 +30,7 @@ void swap_ints(int *a, int *b)
  *
  * Return: The final partition index.
  */
+
 int lomuto_partition(int *array, size_t size, int left, int right)
 {
 	int *pivot, above, below;
@@ -65,6 +67,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
  *
  * Description: Uses the Lomuto partition scheme.
  */
+
 void lomuto_sort(int *array, size_t size, int left, int right)
 {
 	int part;
@@ -86,6 +89,7 @@ void lomuto_sort(int *array, size_t size, int left, int right)
  * Description: Uses the Lomuto partition scheme. Prints
  *              the array after each swap of two elements.
  */
+
 void quick_sort(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
