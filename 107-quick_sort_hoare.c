@@ -10,6 +10,7 @@ void quick_sort_hoare(int *array, size_t size);
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
+
 void swap_ints(int *a, int *b)
 {
 	int tmp;
@@ -86,6 +87,7 @@ void hoare_sort(int *array, size_t size, int left, int right)
  * Description: Uses the Hoare partition scheme. Prints
  * the array after each swap of two elements.
  */
+
 void quick_sort_hoare(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
