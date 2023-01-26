@@ -7,6 +7,7 @@
  *
  * Return: the corresponding power of 10
  */
+
 unsigned int pow_10(unsigned int power)
 {
 	unsigned int i, result;
@@ -26,6 +27,8 @@ unsigned int pow_10(unsigned int power)
  *
  * Return: 1 if there is a need to keep sorting, 0 if not
  */
+
+
 unsigned int count_sort(int *array, size_t size, unsigned int digit)
 {
 	int i, count[10] = {0};
@@ -71,6 +74,7 @@ unsigned int count_sort(int *array, size_t size, unsigned int digit)
  *
  * Return: void
  */
+
 void radix_sort(int *array, size_t size)
 {
 	unsigned int i, sort = 1;
