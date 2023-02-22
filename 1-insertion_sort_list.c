@@ -22,8 +22,6 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 	*n1 = n2->prev;
 }
 
-
-
 /**
  * insertion_sort_list - sorts a doubly linked list of
  * integers in ascending order
@@ -31,6 +29,9 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
  *
  */
 
+/*
+Time Complexity: O(n^2)
+*/
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *iter, *insert, *tmp;
@@ -47,8 +48,5 @@ void insertion_sort_list(listint_t **list)
 			swap_nodes(list, &insert, iter);
 			print_list((const listint_t *)*list);
 		}
-
 	}
-
-
 }
